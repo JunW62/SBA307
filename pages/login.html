@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Font awesome: cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ="
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poetsen+One&display=swap"
+      rel="stylesheet"
+    />
+    <title>Login Page</title>
+
+    <link rel="stylesheet" href="../styles/login.css" />
+  </head>
+  <body>
+    <div class="login-container">
+      <div class="logo">
+        <div class="go-back">
+          <a href="../index.html">
+            <i class="fas fa-chevron-left" style="color: white;"></i>
+          </a>
+        </div>
+        <span><img src="../images/logo-main.png" alt="" height="150px" /></span>
+      </div>
+
+      <form id="login-content">
+        <div id="login-title">
+          <div><img src="../images/login-left.png" alt="" width="150px" /></div>
+          <h1>Login</h1>
+          <div>
+            <img src="../images/login-right.png" alt="" width="150px" />
+          </div>
+        </div>
+
+        <h2 class="login-text">
+          EMAIL ADDRESS
+        </h2>
+
+        <div class="input-group">
+          <input type="email" placeholder="" />
+        </div>
+
+        <h2 class="login-text">
+          PASSWORD
+        </h2>
+
+        <div class="input-group">
+          <input type="password" placeholder="" />
+        </div>
+
+        <div class="login-bottom">
+          <div id="left" style="float: left;">
+            <input type="checkbox" />
+            Remember Me
+          </div>
+          <a href="#" style="float: right; color: #c2bbff;">Forgot password?</a>
+        </div>
+
+        <div class="btn-1">
+          <a href="../index.html"><p>LOG IN</p></a>
+        </div>
+    
+        <hr />
+
+        <h2 id="sign-up-h2">Don't have an account?</h2>
+        <div class="btn-2"><a href="../pages/register.html">
+          <p>SIGN UP</p>
+        </a>
+      </form>
+    </div>
+  </body>
+</html>
